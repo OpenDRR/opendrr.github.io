@@ -72,4 +72,72 @@ var marker = L.marker([{{ page.mlatlng[0] }}, {{ page.mlatlng[1] }}], {
 {% if page.mpop or page.icon %}
 marker.bindPopup("{{ page.mpop }}").openPopup();
 {% endif %}
+
+{% if page.layer %}
+var layer_obj;
+fetch( "{{page.layer}}" ).then(( resp ) => {
+    return resp.json();
+}).then(( data ) => {
+    layer_obj = data;
+    _addGeoJSONObjToMap( layer_obj, map );
+}).catch(( err ) => {
+    console.log( err );
+    _addGeoJSONObjToMap( layer_obj, map );
+});
+{% endif %}
+
+function _onEachFeature( feature, layer ) {
+    var potentialPopup = ""
+    if ( feature.properties && feature.properties.popupContent ) {
+        potentialPopup += feature.properties.popupContent;
+    }
+    if ( feature.properties && feature.properties.href ) {
+        potentialPopup += 
+            '<a href="' + feature.properties.href + '">' + 
+                '<img src="' + newWindowImgSrcBase64 + '"></img></a>';}
+    if( potentialPopup ){
+        layer.bindPopup(potentialPopup );
+    }
+}
+
+function _addGeoJSONObjToMap( leafletItem, map ){
+  var geojson = L.geoJSON( leafletItem, { 
+      onEachFeature: _onEachFeature,
+      style: featureStyle
+  } );
+  layers = geojson.getLayers();
+  for ( var i=0; i<layers.length; i++ ){
+      try {
+          var geom = layers[i].feature.geometry;
+          if (!( 'center' in tagInputArg )){
+              // If the user didn't specify a center, infer from geojson
+              map.panTo( new L.LatLng( geom.coordinates[1],
+                                      geom.coordinates[0] ) );
+          }
+      } catch( e ){ }
+  }
+  geojson.addTo( map );
+}
+
+function getColor(d) {
+    return d > 1000 ? '#800026' :
+           d > 500  ? '#BD0026' :
+           d > 200  ? '#E31A1C' :
+           d > 100  ? '#FC4E2A' :
+           d > 50   ? '#FD8D3C' :
+           d > 20   ? '#FEB24C' :
+           d > 10   ? '#FED976' :
+                      '#FFEDA0';
+}
+
+function featureStyle(feature) {
+    return {
+        fillColor: getColor(feature.properties.CensusPop),
+        weight: 1,
+        opacity: 1,
+        color: 'white',
+        dashArray: '0',
+        fillOpacity: 0.7
+    };
+}
 </script>

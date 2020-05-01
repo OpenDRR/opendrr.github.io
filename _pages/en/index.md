@@ -13,10 +13,12 @@ subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Test page - Canada.ca
+# Leaflet
 leaflet: true
 latlng: [49.24, -123.11]
 zoom: 10
-# mlatlng: [49.24, -123.11]
+layer: "/assets/data/dsra_sim6p8_cr2022_rlz_1_b0_casualties_agg_view.geojson"
+# mlatlng: [49.24, -123.11] # marker lat/lon
 ---
 # {{ page.contentTitle }}
 
