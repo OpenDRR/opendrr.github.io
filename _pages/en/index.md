@@ -13,8 +13,14 @@ subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Test page - Canada.ca
+leaflet: true
+latlng: [49.24, -123.11]
+zoom: 10
+# mlatlng: [49.24, -123.11]
 ---
 # {{ page.contentTitle }}
+
+{% include leaflet.html %}
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 

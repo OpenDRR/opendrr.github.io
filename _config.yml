@@ -285,3 +285,4 @@ stylesheets:
 theme-name: GCWeb
 title: "gcweb-jekyll" # Site name or title
 wetSiteRoot: "https://wet-boew.github.io/wet-boew"
+leaflet: leaflet@1.6.0
