@@ -1,4 +1,4 @@
-<div id="map" class="leafmap" style="width: 100%;height:300px;"></div>
+<div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
 <script src="https://unpkg.com/{{ site.leaflet }}/dist/leaflet.js"></script>
 <script>
 {% if page.leaflet %}
@@ -75,7 +75,7 @@ marker.bindPopup("{{ page.mpop }}").openPopup();
 
 {% if page.layer %}
 var layer_obj;
-fetch( "{{page.layer}}" ).then(( resp ) => {
+fetch( "{{ site.baseurl }}{{page.layer}}" ).then(( resp ) => {
     return resp.json();
 }).then(( data ) => {
     layer_obj = data;
