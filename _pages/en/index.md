@@ -28,4 +28,4 @@ Preview of {{ page.contentTitle }} dataset.
 
 ## Downloads
 
-[GeoJSON]({{page.layer}})
+[GeoJSON]({{site.baseurl}}{{page.layer}})
