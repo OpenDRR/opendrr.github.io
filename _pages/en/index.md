@@ -2,29 +2,32 @@
 altLangPrefix: index
 authorName: Natural Resources Canada
 authorUrl:
-contentTitle: dsra_sim6p8_cr2022_rlz_1_b0_casualties_agg_view
+contentTitle:
+  en: DSRA Full Retrofit
+  fr: DSRA Full Retrofit
 dateModified: 2020-05-02
 description:
-  en: "Get quick, easy access to all Government of Canada services and information."
-  fr: "Accédez rapidement et facilement à tous les services et renseignements du gouvernement du Canada."
+  en: DSRA full retrofit classified on sCR_Debris_r2
+  fr: DSRA full retrofit classified on sCR_Debris_r2
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: Test page - Canada.ca
+title: OpenDRR
 # Leaflet
 leaflet: true
 latlng: [49.24, -123.11]
 zoom: 10
-layer: "/assets/data/dsra_sim6p8_cr2022_rlz_1_b0_casualties_agg_view.geojson"
+layer: /assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson
+featureClass: sCR_Debris_r2
 # mlatlng: [49.24, -123.11] # marker lat/lon
 ---
-# {{ page.contentTitle }}
+# {{ page.contentTitle.en }}
+
+{{page.description.en}}
 
 {% include leaflet.html %}
-
-Preview of {{ page.contentTitle }} dataset.
 
 ## Downloads
 
