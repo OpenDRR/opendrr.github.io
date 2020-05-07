@@ -25,7 +25,7 @@ title: OpenDRR
   {% for page in site.pages %}
   {% if page.path contains 'en/data' %}
     <li>
-      <a href="{{ page.url }}">{{ page.contentTitle.en }}</a>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.contentTitle.en }}</a>
     </li>
     {% endif %}
   {% endfor %}
