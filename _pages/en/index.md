@@ -3,32 +3,30 @@ altLangPrefix: index
 authorName: Natural Resources Canada
 authorUrl:
 contentTitle:
-  en: DSRA Full Retrofit
-  fr: DSRA Full Retrofit
+  en: OpenDRR Downloads
+  fr: OpenDRR Downloads
 dateModified: 2020-05-02
 description:
-  en: DSRA full retrofit classified on sCR_Debris_r2
-  fr: DSRA full retrofit classified on sCR_Debris_r2
+  en: Available datasets
+  fr: Available datasets
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: OpenDRR
-# Leaflet
-leaflet: true
-latlng: [49.24, -123.11]
-zoom: 10
-layer: /assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson
-featureClass: sCR_Debris_r2
-# mlatlng: [49.24, -123.11] # marker lat/lon
+
 ---
 # {{ page.contentTitle.en }}
 
 {{page.description.en}}
 
-{% include leaflet.html %}
-
-## Downloads
-
-[GeoJSON]({{site.baseurl}}{{page.layer}})
+<ul>
+  {% for page in site.pages %}
+  {% if page.path contains 'en/data' %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
