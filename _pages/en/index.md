@@ -28,13 +28,3 @@ title: OpenDRR
     </li>
   {% endfor %}
 </ul>
-
-<ul>
-  {% for page in site.pages %}
-  {% if page.path contains 'en/data' %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>

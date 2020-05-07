@@ -1,12 +1,12 @@
 [
   {
     "title": "Full Retrofit",
+    "description": "DSRA full retrofit aggregated view - classed on sCR_Debris_r2",
     "name": "dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view",
-    "url": "/assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson"
-  },
-  {
-    "title": "Full Retrofit 2",
-    "name": "dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view_2",
-    "url": "/assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson"
+    "leaflet": true,
+    "latlng": [49.24, -123.11],
+    "zoom": 10,
+    "layer": "/assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson",
+    "featureClass": "sCR_Debris_r2"
   }
 ]

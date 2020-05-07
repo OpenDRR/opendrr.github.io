@@ -1,3 +1,4 @@
+{% if page.leaflet %}
 <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
 <style>
   .legend {
@@ -19,7 +20,7 @@
 </style>
 <script src="https://unpkg.com/{{ site.leaflet }}/dist/leaflet.js"></script>
 <script>
-{% if page.leaflet %}
+
 // L.Icon.Default.imagePath = '{{ "images/carto/" | prepend: site.baseurl }}';
 
 var viirs = 'VIIRS_SNPP_CorrectedReflectance_TrueColor';
@@ -65,7 +66,7 @@ var map = L.map('map', {
 	{% endif %}
 });
 map.scrollWheelZoom.disable();
-{% endif %}
+
 
 {% if page.mlatlng %}
 var marker = L.marker(
@@ -179,3 +180,4 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 </script>
+{% endif %}
