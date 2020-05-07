@@ -57,16 +57,18 @@ var basemap = {
 var map = L.map('map', {
   {% if page.latlng %}
   'center': [{{ page.latlng[0] }}, {{ page.latlng[1] }}],
+  {% endif %}
+  {% if page.zoom %}
   'zoom': {{ page.zoom }},
+  {% endif %}
   {% if include.leaflet_tile %}
   'layers': [basemap.{{ include.leaflet_tile }}]
   {% else %}
   'layers': [basemap.OpenStreetMap]
   {% endif %}
-	{% endif %}
+	
 });
 map.scrollWheelZoom.disable();
-
 
 {% if page.mlatlng %}
 var marker = L.marker(
@@ -124,18 +126,10 @@ function _addGeoJSONObjToMap( leafletItem, map ){
       onEachFeature: _onEachFeature,
       style: featureStyle
   } );
-  layers = geojson.getLayers();
-  for ( var i=0; i<layers.length; i++ ){
-      try {
-          var geom = layers[i].feature.geometry;
-          if (!( 'center' in tagInputArg )){
-              // If the user didn't specify a center, infer from geojson
-              map.panTo( new L.LatLng( geom.coordinates[1],
-                                      geom.coordinates[0] ) );
-          }
-      } catch( e ){ }
-  }
   geojson.addTo( map );
+  {% if !page.mlatlng %}
+  map.fitBounds(geojson.getBounds());
+  {% endif %}
 }
 
 function getColor(d) {
@@ -152,11 +146,11 @@ function getColor(d) {
 function featureStyle(feature) {
     return {
         fillColor: getColor(feature.properties.{{page.featureClass}}),
-        weight: 1,
+        weight: 0.5,
         opacity: 1,
         color: 'white',
         dashArray: '0',
-        fillOpacity: 0.7
+        fillOpacity: 0.5
     };
 }
 

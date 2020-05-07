@@ -20,7 +20,7 @@ subject:
 title: dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view
 # Leaflet
 leaflet: true
-latlng: [49.24, -123.11]
+latlng: [49.24, -123.11] # if not set then map will zoom to extent of layer
 zoom: 10
 layer: /assets/data/dsra_sim6p8_cr2022_rlz_1_b0_full_retrofit_agg_view.geojson
 featureClass: sCR_Debris_r2
