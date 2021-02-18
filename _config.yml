@@ -63,7 +63,7 @@ analytics_adobe: ""
 analytics_google: ""
 analytics_google_anonymize_ip: ""
 assets: "https://wet-boew.github.io/themes-dist"
-baseurl: "/jekyll-info-viz" # set this to your GitHub project name
+baseurl: "" # set this to your GitHub project name
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 description:
   en: "Jekyll variant for GCWeb theme" # English site description and default description
@@ -276,17 +276,13 @@ defaults:
 
 encoding: utf-8 # Make sure the encoding is right
 email: ""
-repo: "https://github.com/wet-boew/gcweb-jekyll"
+repo: "https://github.com/OpenDRR/opendrr.github.io"
 # service_worker: false # Will turn off the service worker if set to false
 stylesheets:
   - href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin: "anonymous"
 theme-name: GCWeb
-title: "gcweb-jekyll" # Site name or title
-wetSiteRoot: "https://wet-boew.github.io/wet-boew"
+title: "OpenDRR - Canada.ca" # Site name or title
+wetSiteRoot: "https://opendirr.github.io/"
 leaflet: "leaflet@1.6.0"
-
-
-
-  
