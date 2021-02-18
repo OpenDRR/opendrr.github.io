@@ -1,11 +1,12 @@
 ---
 altLangPrefix: index
-authorName: Service Canada
+authorName: Ressources naturelles Canada
 authorUrl: 
-contentTitle: Canada.ca Jekyll theme
+contentTitle: OpenDRR - Réduction des risques de catastrophe ouverte
+dateModified: 2021-02-18
 description:
-  en: "Get quick, easy access to all Government of Canada services and information."
-  fr: "Accédez rapidement et facilement à tous les services et renseignements du gouvernement du Canada."
+  en: "OpenDRR"
+  fr: "OpenDRR"
 lang: fr
 layout: page
 noContentTitle: true
@@ -13,125 +14,35 @@ pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: Test page - Canada.ca
+title: OpenDRR - Canada.ca
 ---
 
 # {{ page.contentTitle }}
 
-Il s'agit d'un paragraphe normal suivant un en-tête. GitHub est une plateforme d'hébergement de code pour le contrôle de version et la collaboration. Il vous permet, ainsi qu'à d'autres, de travailler ensemble sur des projets de n'importe où.
+_[Remarque : Cette page est une preuve de concept en cours.]_
 
-Le texte peut être **gras**, _italique_ ou ~~barré~~.
+Bienvenue !
 
-[Lien vers une autre page](./autre-page.html).
+La plate-forme OpenDRR est un middleware entre les environnements de modélisation des dangers ou des risques comme [OpenQuake](https://www.globalquakemodel.org/openquake) et les utilisateurs finaux qui doivent comprendre et évaluer les risques pour prendre des décisions économiques et politiques.
 
-Il devrait y avoir un espace entre les paragraphes.
+L'interface utilisateur final fonctionnera comme une application Web utilisant des navigateurs Web standard dans des environnements de bureau, de tablette ou d'appareils portables.
 
-Il devrait y avoir un espace entre les paragraphes. Nous vous recommandons d'inclure un fichier README ou un fichier contenant des informations sur votre projet.
+## Téléchargements
 
-## En-tête 2
+* [Téléchargements de données OpenDRR](https://opendrr.github.io/data/fr/) sur <https://opendrr.github.io/data/fr/>
 
-> Il s'agit d'une citation suivant un en-tête.
->
-> Lorsque quelque chose est suffisamment important, vous le faites même si les chances ne sont pas en votre faveur.
+## Documentation
 
-### En-tête 3
+* Bientôt disponible : « A Federated OpenDRR Platform to Support Disaster Resilience Planning in Canada: High Level Requirements » (en anglais)
 
-```js 
-// Code Javascript avec coloration syntaxique.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Présentation vidéo
 
-```ruby 
-# Code Ruby avec coloration syntaxique
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-M3NHo-aW_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-#### En-tête 4
+Pour plus d'informations, voir [Terra-Cognita: How can we Accelerate Disaster Resilience Planning with OpenData?](https://www.urbc.ca/terra-cognita) organisé par [le Symposium en ligne URBC 2020](https://www.urbc.ca/).
 
-* Il s'agit d'une liste non ordonnée suivant un en-tête.
-* Il s'agit d'une liste non ordonnée suivant un en-tête.
-* Il s'agit d'une liste non ordonnée suivant un en-tête.
+## Pour les développeurs
 
-##### En-tête 5
-
-1. Il s'agit d'une liste ordonnée suivant un en-tête.
-2. Il s'agit d'une liste ordonnée suivant un en-tête.
-3. Il s'agit d'une liste ordonnée suivant un en-tête.
-
-###### En-tête 6
-
-| head1           | tête deux         | trois |
-|:----------------|:------------------|:------|
-| ok            | bon poisson suédois | sympa |
-| en rupture de stock | bon et plein  | sympa |
-| ok              | bon `oreos`       | hmm   |
-| ok           | bonne goutte `zoute` | miam  |
-
-### Il y a une ligne horizontale en dessous.
-
-* * *
-
-### Voici une liste non ordonnée:
-
-* Objet foo
-* Barre d'articles
-* Article baz
-* Article zip
-
-### Et une liste ordonnée:
-
-1. Point un
-1. Point deux
-1. Point trois
-1. Point quatre
-
-### Et une liste imbriquée:
-
-- élément de niveau 1
-   - objet de niveau 2
-   - objet de niveau 2
-     - objet de niveau 3
-     - objet de niveau 3
-- élément de niveau 1
-   - objet de niveau 2
-   - objet de niveau 2
-   - objet de niveau 2
-- élément de niveau 1
-   - objet de niveau 2
-   - objet de niveau 2
-- élément de niveau 1
-
-### Petite image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Grande image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png){: .img-responsive}
-
-
-### Les listes de définitions peuvent être utilisées avec la syntaxe HTML.
-
-<dl>
-<dt>Nom</dt>
-<dd>Godzilla</dd>
-<dt>Né</dt>
-<dd>1952</dd>
-<dt>Lieu de naissance</dt>
-<dd>Japon</dd>
-<dt>Couleur</dt>
-<dd>Vert</dd>
-</dl>
-
-```
-Les longs blocs de code sur une seule ligne ne doivent pas être bouclés. Ils doivent défiler horizontalement s'ils sont trop longs. Cette ligne doit être suffisamment longue pour le démontrer.
-```
-
-```
-Le dernier élément.
-```
+* [Dépôt GitHub parent pour la plate-forme OpenDRR](https://github.com/OpenDRR/opendrr-platform) à l'adresse <https://github.com/OpenDRR/opendrr-platform>
