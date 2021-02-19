@@ -33,7 +33,9 @@ L'interface utilisateur final fonctionnera comme une application Web utilisant d
 
 ## Documentation
 
-* Bientôt disponible : « A Federated OpenDRR Platform to Support Disaster Resilience Planning in Canada: High Level Requirements » (en anglais)
+### Documents de recherche
+
+* [A Federated OpenDRR Platform to Support Disaster Resilience Planning in Canada: High Level Requirements](https://anthonyfok.github.io/documentation/docs/opendrr-platform.html) (en anglais)
 
 ## Présentation vidéo
 
