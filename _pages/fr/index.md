@@ -39,10 +39,6 @@ L'interface utilisateur final fonctionnera comme une application Web utilisant d
 
 ## Présentation vidéo
 
-<div style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-M3NHo-aW_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
 Visitez le symposium en ligne [Understanding Risk (UR) BC 2020](https://www.urbc.ca/){:target="_blank"} pour d'autres sessions intéressantes.  En voici quelques-unes parmi tant d'autres :
 
 * 2020-11-03 : [Test de conduite d'une méthodologie de modélisation rapide des catastrophes pour les tremblements de terre en Colombie-Britannique](https://www.urbc.ca/disastermodellingmethodologyforbc){:target="_blank"} (en anglais)
