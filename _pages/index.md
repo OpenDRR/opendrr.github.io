@@ -1,5 +1,5 @@
 ---
-  contentTitle: Canada.ca
+  contentTitle: OpenDRR
   creator:
     en: Government of Canada, Service Canada, Citizen Service Branch, Integrated Channel Management, Web Strategies and Product Management
     fr: Gouvernement du Canada, Service Canada, Direction générale de service aux citoyens, Gestion intégrée des modes de service, Gestion des stratégies et produits Web
@@ -16,5 +16,5 @@
   subject:
     en: Government of Canada, services
     fr: Gouvernement du Canada, services
-  title: Canada.ca
+  title: OpenDRR
 ---

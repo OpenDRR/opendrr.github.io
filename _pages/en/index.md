@@ -14,7 +14,7 @@ pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: OpenDRR - Canada.ca
+title: OpenDRR
 ---
 
 # {{ page.contentTitle.en }}
