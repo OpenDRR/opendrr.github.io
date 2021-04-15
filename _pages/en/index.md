@@ -39,6 +39,10 @@ The end-user interface will operate as a web application using standard web brow
 
 ## Video Introduction
 
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-M3NHo-aW_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 Visit the [Understanding Risk (UR) BC 2020 Online Symposium](https://www.urbc.ca/){:target="_blank"} for more great sessions.  Here are some of them among many:
 
 * 2020-11-03: [Test Driving a Rapid Disaster Modelling Methodology for British Columbia Earthquakes](https://www.urbc.ca/disastermodellingmethodologyforbc){:target="_blank"}
