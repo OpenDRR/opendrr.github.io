@@ -29,7 +29,7 @@ L'interface utilisateur final fonctionnera comme une application Web utilisant d
 
 ## Téléchargements
 
-* [Téléchargements de données OpenDRR](https://opendrr.github.io/data/fr/){:target="_blank"} sur <https://opendrr.github.io/data/fr/>{:target="_blank"}
+* [Téléchargements de données OpenDRR](https://opendrr.github.io/downloads/fr/){:target="_blank"} sur <https://opendrr.github.io/downloads/fr/>{:target="_blank"}
 
 ## Documentation
 
