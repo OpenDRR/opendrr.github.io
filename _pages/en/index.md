@@ -29,7 +29,7 @@ The end-user interface will operate as a web application using standard web brow
 
 ## Downloads
 
-* [OpenDRR Data Downloads](https://opendrr.github.io/data/en/){:target="_blank"} at <https://opendrr.github.io/data/en/>{:target="_blank"}
+* [OpenDRR Data Downloads](https://opendrr.github.io/downloads/en/){:target="_blank"} at <https://opendrr.github.io/downloads/en/>{:target="_blank"}
 
 ## Documentation
 
