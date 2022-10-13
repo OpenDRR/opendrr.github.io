@@ -19,13 +19,13 @@ title: OpenDRR
 
 # {{ page.contentTitle }}
 
-_[Remarque : Cette page est une preuve de concept en cours.]_
-
 Bienvenue !
 
-La plate-forme OpenDRR est un middleware entre les environnements de modélisation des dangers ou des risques comme [OpenQuake](https://www.globalquakemodel.org/openquake){:target="_blank"} et les utilisateurs finaux qui doivent comprendre et évaluer les risques pour prendre des décisions économiques et politiques.
+La plateforme OpenDRR est un logiciel intermédiaire entre les environnements de modélisation des dangers ou des risques, comme le moteur [OpenQuake](https://www.globalquakemodel.org/openquake), et les utilisateurs finaux qui ont besoin de comprendre et d'évaluer les risques pour prendre des décisions économiques et politiques.
 
-L'interface utilisateur final fonctionnera comme une application Web utilisant des navigateurs Web standard dans des environnements de bureau, de tablette ou d'appareils portables.
+L'interface utilisateur final est disponible à l'adresse [www.riskprofiler.ca](www.RiskProfiler.ca) et fonctionne comme une application web utilisant des navigateurs web standard dans des environnements de bureau, de tablette ou de dispositif portable. 
+
+La documentation complète du produit RiskProfiler est disponible sur ce site web. Pour la documentation de cette plateforme OpenDRR, voir les liens ci-dessous. 
 
 ## Téléchargements
 
