@@ -12,8 +12,8 @@ layout: page
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
-  en: [GV Government and Politics, Government services]
-  fr: [GV Gouvernement et vie politique, Services gouvernementaux]
+  en: [OpenDRR (Open Disaster Risk Reduction) Platform]
+  fr: [OpenDRR (plate-forme ouverte pour la réduction des risques de catastrophes)]
 title: OpenDRR
 ---
 
@@ -23,9 +23,9 @@ Bienvenue !
 
 La plateforme OpenDRR est un logiciel intermédiaire entre les environnements de modélisation des dangers ou des risques, comme le moteur [OpenQuake](https://www.globalquakemodel.org/openquake), et les utilisateurs finaux qui ont besoin de comprendre et d'évaluer les risques pour prendre des décisions économiques et politiques.
 
-L'interface utilisateur final est disponible à l'adresse [www.riskprofiler.ca](www.RiskProfiler.ca) et fonctionne comme une application web utilisant des navigateurs web standard dans des environnements de bureau, de tablette ou de dispositif portable. 
+L'interface utilisateur final est disponible à l'adresse [www.RiskProfiler.ca](https://www.riskprofiler.ca/) et fonctionne comme une application web utilisant des navigateurs web standard dans des environnements de bureau, de tablette ou de dispositif portable.
 
-La documentation complète du produit RiskProfiler est disponible sur ce site web. Pour la documentation de cette plateforme OpenDRR, voir les liens ci-dessous. 
+La documentation complète du produit RiskProfiler est disponible sur ce site web. Pour la documentation de cette plateforme OpenDRR, voir les liens ci-dessous.
 
 ## Téléchargements
 
