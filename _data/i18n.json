@@ -500,6 +500,7 @@
   "tmpl-more": {"en": "More", "fr": "Autres"},
   "tmpl-gc-navbar": {"en": "Government of Canada navigation bar", "fr": "Barre de navigation du gouvernement du Canada"},
   "tmpl-gc-sig": {"en": "Government of Canada", "fr": "Gouvernement du Canada"},
+  "tmpl-nrcan-sig": {"en": "Natural Resources Canada", "fr": "Ressources naturelles Canada"},
   "tmpl-gc-wmms": {"en": "Symbol of the Government of Canada", "fr": "Symbole du gouvernement du Canada"},
   "tmpl-gc-ca": {"en": "Canada.ca", "fr": "Canada.ca"},
   "tmpl-services": {"en": "Services", "fr": "Services"},

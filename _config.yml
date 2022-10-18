@@ -116,6 +116,9 @@ defaults:
         tmpl-gc-sig:
           en: Government of Canada
           fr: Gouvernement du Canada
+        tmpl-nrcan-sig:
+          en: Natural Resources Canada
+          fr: Ressources naturelles Canada
         tmpl-gc-wmms:
           en: Symbol of the Government of Canada
           fr: Symbole du gouvernement du Canada
